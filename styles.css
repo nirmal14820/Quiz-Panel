@@ -1,0 +1,122 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e8f0eb;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+h2 {
+    color: #4f8f71;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#quiz-container {
+    margin-top: 20px;
+}
+
+p#question {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#options button {
+    background-color:#5f7c92c4;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s;
+    color: #333;
+}
+
+#options button:hover {
+    background-color: #3b6f58;
+    color: #fff;
+}
+
+#nextBtn {
+    background: #3b6f58;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+#nextBtn:hover {
+    background: #3b6f58;
+}
+
+.progress-bar {
+    width: 100%;
+    background: #d3d3d3;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#progress {
+    height: 100%;
+    width: 0;
+    background: #4f8f71;
+    transition: width 0.5s;
+}
+
+#score {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #4f8f71;
+    font-weight: bold;
+}
+
+
+#quizSelection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#quizSelection button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #4f8f71;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#quizSelection button:hover {
+    background-color: #3b6f58;
+}
